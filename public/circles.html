@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Circles</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/circles.css">
-	<script type="text/javascript" src="assets/js/lib/paper-full.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.5/howler.js"></script>
-	<script type="text/paperscript" canvas="myCanvas">
+  <title>Circles</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/circles.css">
+  <script type="text/javascript" src="assets/js/lib/paper-full.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.5/howler.js"></script>
+  <script type="text/paperscript" canvas="myCanvas">
 		
 		var keyData = {
 			q: {
@@ -164,9 +165,9 @@
 				}),
 				color: '#2c3e50'
 			}
-		};
+    };
 
-		var circles = [];
+    var circles = [];    
 
 		function onKeyDown(event) {
 			if(keyData[event.key]){
@@ -188,8 +189,19 @@
 		};
 	</script>
 </head>
-<body>
-	<canvas id="myCanvas" resize></canvas>
 
+<body>
+  <div class="message-box">
+    <p id="message" class="message">Press any key, A to Z and turn up speakers</p>
+  </div>
+  <canvas id="myCanvas" resize></canvas>
+
+  <script>
+    var message = document.querySelector("#message");
+    document.addEventListener("keypress", function () {
+      message.classList.add("hide");
+    });
+  </script>
 </body>
+
 </html>
