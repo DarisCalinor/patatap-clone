@@ -1,7 +1,15 @@
-# Patatap Clone
+# Smash the Keyboard!
 
-A simple patatap clone made with JavaScript libraries Paper.js and Howler.js.
+**DISCLOSURE: We will not buy you a new keyboard.**
 
-Patatap is a portable animation and sound kit. With the touch of a finger create melodies charged with moving shapes. For original site please visit: [patatap.com](https://patatap.com)
+Just feeling not OK? Don't blame it on the boogie, _SMASH THE KEYBOARD!_
 
-Warning: It contains circles!
+Smash the Keyboard actually is not about breaking your keyboard. It is for relaxing and be more creative. It is a portable animation and sound kit, to create live animations.
+
+Open the page from <a href="https://dariscalinor.github.io/smash-the-keyboard/" target="_blank">this link</a> and press any key between A-Z. It is using just one sound kit and circles for now. However, I'm planning to add rainbows, unicorns and a pinch of Force.
+
+It is made with pure JavaScript with the help of [Paper.js](http://paperjs.org/) and [Howler.js](https://howlerjs.com/) on HTML's`<canvas>` element
+
+It is inspired by [patatap.com](https://patatap.com) which is way more cooler.
+
+**WARNING: It contains circles!**
